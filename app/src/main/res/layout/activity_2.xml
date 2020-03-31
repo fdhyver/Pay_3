@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="48sp"
+    android:background="@drawable/googlepay_button_background"
+    android:padding="2sp"
+    android:contentDescription="googlepay_button_content_description">
+
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:duplicateParentState="true"
+
+        android:scaleType="fitXY"
+        android:src="@drawable/googlepay_button_overlay" />
+</RelativeLayout>
